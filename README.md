@@ -11,6 +11,8 @@ My Portfolio: https://www.ankit-kumar-cv.web.app
 <strong>My GeeksforGeeks Contributions</strong> https://auth.geeksforgeeks.org/user/ankit_kumar_/articles
 <br>
 You can find documentation and examples of flutter widgets here!!
+<br>
+<p>Oficial Article</p> https://api.flutter.dev/flutter/material/CircleAvatar-class.html
 
 
 A few resources to get you started if this is your first Flutter project:
