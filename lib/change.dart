@@ -11,32 +11,28 @@ void main() {
             icon: Icon(Icons.menu),
             tooltip: 'Menu',
             onPressed: () {},
-          ),
+          ), //IcoButton
           actions: <Widget>[
             IconButton(
               icon: Icon(Icons.comment),
               tooltip: 'Comment',
               onPressed: () {},
-            ),
-          ],
-        ),
+            ), //IconButton
+          ], //<Widget>[]
+        ), //AppBar
         body: Center(
           child: CircleAvatar(
-            backgroundColor: Colors.green,
-            radius: 115,
-            child: CircleAvatar(
-              backgroundColor: Colors.greenAccent[100],
-              radius: 110,
-              child: CircleAvatar(
-                backgroundImage: NetworkImage(
-                    "https://pbs.twimg.com/profile_images/1304985167476523008/QNHrwL2q_400x400.jpg"), //NetworkImage
-                radius: 100,
-              ), //CircleAvatar
-            ), //CircleAvatar
-          ), //CircleAvatar
+            backgroundColor: Colors.greenAccent[400],
+            foregroundColor: Colors.white,
+            radius: 100,
+            child: Text(
+              'GeeksForGeeks',
+              style: TextStyle(fontSize: 25),
+            ), //Text
+          ), //CirlceAvatar
         ), //Center
-      ),
+      ), //Scaffold
       debugShowCheckedModeBanner: false,
-    ),
+    ), //MaterialApp
   );
 }
